@@ -79,3 +79,15 @@ To get all your keys use the `S1.get_keys()` method.
 ```python
 api.get_keys() # Returns: List of key names as Python object.
 ```
+
+## Running Tests:
+
+You need the `unittest` module from pip:
+```bash
+$ pip install unittest
+```
+
+Then from within the s1-python directory run:
+```bash
+$ python -m unittest
+```
